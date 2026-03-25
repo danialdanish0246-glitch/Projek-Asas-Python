@@ -1,15 +1,32 @@
-#  Koleksi Projek Asas Python - Danial
+#  Projek Asas Python - Danial Danish
 
-Selamat datang ke repository saya! Ini adalah tempat saya menyimpan semua hasil pembelajaran Python saya dari kosong sehingga berjaya membina sistem yang kompleks.
+Koleksi skrip Python untuk latihan logik dan pengaturcaraan.
 
-##  Senarai Projek Utama
-* **Super App Danial (V1):** Gabungan sistem Zakat, Grab Food, dan Tiket Wayang dalam satu menu utama.
-* **Grab Food Simulator:** Sistem pesanan makanan menggunakan *Dictionary* dan *Loops*.
-* **Wayang Kulit Utara:** Sistem tiket yang mengira harga berdasarkan kategori umur.
-* **ATM & Parking System:** Logik matematik untuk transaksi harian.
+---
 
-##  Matlamat Saya
-Saya sedang belajar Python untuk mengukuhkan logik matematik saya bagi mencapai cita-cita sebagai seorang **Actuary** dan pakar dalam pengaturcaraan.
+##  Projek Utama: Sistem Resit Pintar
+Fail: `sistem_resit_pintar_v1.py`
 
-##  Bahasa Digunakan
-* **Python 100%** (fokus pada logic, variables, loops, dan error handling).
+Sistem ini direka untuk membantu pengiraan barang belanja dengan paparan resit yang tersusun kemas.
+
+**Ciri-ciri Utama:**
+* **Alignment Tepat:** Menggunakan f-string (`:<`, `:^`, `:>`) untuk memastikan kolom Item, Qty, dan Harga sentiasa selari.
+* **Diskaun Automatik:** Memberi potongan **10%** jika jumlah belanja melebihi **RM100**.
+* **Input Dinamik:** Pengguna boleh menambah seberapa banyak barang ke dalam bakul.
+
+---
+
+##  Senarai Fail Lain
+* `atm_mini.py` - Simulasi mesin ATM ringkas.
+* `kira_zakat.py` - Kalkulator pengiraan zakat.
+* `parking_system.py` - Sistem pengiraan kadar parkir.
+* `wayang_kulit.py` - Sistem tempahan tiket wayang.
+
+---
+
+##  Cara Guna
+1. Pastikan Python sudah dipasang.
+2. Clone repository ini atau download fail `.py`.
+3. Jalankan kod menggunakan terminal:
+   ```bash
+   python nama_fail.py
