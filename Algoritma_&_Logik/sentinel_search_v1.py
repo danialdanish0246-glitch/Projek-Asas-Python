@@ -14,9 +14,9 @@ def sentinel_search(senarai,target) :
     i += 1
   senarai[n - 1] = elemen_terakhir 
   if (i < n - 1) or (senarai[n - 1] == target) :
-    return print(f"dh jumpa,berada dekat senarai ke-{i}")
+    return f"dh jumpa,berada dekat senarai ke-{i}"
   else :
-    return print("tak jumpa")
+    return "tak jumpa"
 berapa_nk_masuk = int(input("nak masuk berapa nombor : "))
 nombor_list = []
 for i in range(berapa_nk_masuk) :
